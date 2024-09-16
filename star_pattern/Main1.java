@@ -1,6 +1,6 @@
-package src;
+package star_pattern;
 
-public class Main {
+public class Main1 {
 
     /*
                      *
@@ -24,10 +24,10 @@ public class Main {
 
         for (int i = 1; i < satirSayisi; i++) {
 
-            for (int j = 0;j<satirSayisi - i - 1;j++) {
+            for (int j = 0; j < satirSayisi - i - 1; j++) {
                 System.out.print(" ");
             }
-            for(int k=0;k<i;k++){
+            for (int k = 0; k < i; k++) {
                 System.out.print("* ");
             }
             System.out.println();
